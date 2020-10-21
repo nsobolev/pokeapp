@@ -1,0 +1,47 @@
+.poke-list {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 35px;
+  list-style: none;
+}
+
+.poke-list__item {
+  border: 1px solid #f0f0f0;
+}
+
+.poke-list__link {
+  display: block;
+  text-decoration: none;
+  transition: box-shadow 0.15s linear;
+}
+
+.poke-list__link:hover {
+  box-shadow: 0 1px 2px -2px rgba(0, 0, 0, 0.16), 0 3px 6px 0 rgba(0, 0, 0, 0.12), 0 5px 12px 4px rgba(0, 0, 0, 0.09);
+}
+
+.poke-list__container-image,
+.poke-list__image {
+  height: 340px;
+}
+
+.poke-list__image {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.poke-list__content {
+  padding: 20px;
+}
+
+.poke-list__name {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: black;
+}
